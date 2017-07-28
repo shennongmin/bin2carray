@@ -1,6 +1,6 @@
 {
   "name": "bin2carray",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Convert binary file content to C language array with type of unsigned char.",
   "main": "main.js",
   "bin": {
