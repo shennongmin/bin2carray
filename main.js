@@ -22,8 +22,12 @@ const util = require('util');
 const argc = process.argv.length;
 const args = process.argv;
 
-if (argc !== 3) {
-    let usage = "Usage:\r\n  node main.js <filename without .bin>\r\n";
+if (argc !== 3 || args[2] === "--help") {
+    let usage = "Usage:\r\n";
+    usage += "    node main.js <filename without .bin>\r\n";
+    usage += "Example: convert cert.bin to cert.c\r\n"
+    usage += "    node main.js cert\r\n";
+
     console.log(usage);
     process.exit(1);
 }
