@@ -1,0 +1,15 @@
+{
+  "name": "bin2carray",
+  "version": "1.0.0",
+  "description": "Convert binary file content to C language array with type of unsigned char",
+  "main": "main.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.shennongmin.org:hnnyfcwpf/Bin2Carray.git"
+  },
+  "author": "www.shennongmin.org",
+  "license": "GPL-2.0"
+}
